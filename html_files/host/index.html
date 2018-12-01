@@ -1,0 +1,58 @@
+<html>
+
+<head>
+  <img src="jgi3.jpg" width="300" height="300">
+  <style>
+    .left {
+      float: left;
+    }
+
+    .right {
+      float: right;
+    }
+    .my{
+      display: flex;
+    }
+    .padding{
+      padding: 5px
+    }
+  </style>
+  
+</head>
+
+<body>
+  <div id="my" class="my">
+    <p class="padding">oasdofsojfi </p>
+    <p class="padding"> </p>
+
+    <p class="padding">oasdofsojfi</p>
+    <button type="button">get cacha</button>
+    <input />
+  </div>
+  <input />
+
+  <button type="button" onClick="fun('yooo')">put cacha</button>
+  <script>
+      console.log(document.getElementById("my"));
+
+    function fun(para1) {
+      console.log("fun mai hai" + para1);
+      // document.getElementsByTagName('div').innerHTML = "kkkkk";
+      var newData = "";
+
+      for(var i = 0 ; i< 5; i++){
+        newData = newData + "<h1>Hello World</h1>";
+        console.log(newData);
+               
+      }
+
+
+      document.getElementById("my").innerHTML = newData;
+      console.log(document.getElementById("my"));
+      
+      divTAg = "okkkkkkkk"
+    }
+  </script>
+</body>
+
+</html>
